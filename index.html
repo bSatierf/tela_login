@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,27 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Document</title>
 </head>
+
 <body>
   <main>
     <section class="container">
       <div class="container-logo">
         <img src="" alt="" class="logo">
-        <h1 class="titulo-marca"></h1>
+        <h1 class="titulo-marca">MARCA</h1>
       </div>
       <div class="form-area">
         <form action="" class="form">
-          <input type="text">
-          <input type="password">
-          <button type="submit">Sign in</button>
+          <input type="text" class="input-email input">
+          <input type="password" class="input-senha input">
+          <span class="iconify olho mostra-senha" data-icon="entypo:eye" style="color: black;"></span>
+          <span class="iconify olho oculta-senha" data-icon="entypo:eye-with-line" style="color: black;"></span>
+          <button type="submit" class="button-login">Sign in</button>
         </form>
-        <input type="checkbox" name="" id="" for="lembrar-senha"><label for="lembrar-senha">Lembrar de mim</label>
-        <a href="#" class="esqueci-senha">Esqueci minha senha.</a>
+        <div class="div-lembrar-senha">
+          <input type="checkbox" name="lembra-senha" id="lembrar-senha"><label for="lembrar-senha">Lembrar de mim</label>
+          </a>
+        </div>
+        <a href="#" class="esqueci-senha">Esqueci minha senha.
       </div>
       <div class="login-alternativo">
         <p>Ou</p>
@@ -34,11 +41,14 @@
         <a href="#" class="link-cadastro">Não tem uma conta? Cadastre-se!</a>
       </div>
     </section>
-    <footer>
-      <div class="rodape">
-        <p>Desenvolvido por <a href="">bSatierf</a> - 2022</p>
-      </div>
-    </footer>
   </main>
+  <footer>
+    <div class="rodape">
+      <p>Desenvolvido por <a href="">bSatierf</a> - 2022</p>
+    </div>
+  </footer>
+
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </body>
+
 </html>
