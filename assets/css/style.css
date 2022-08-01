@@ -119,7 +119,6 @@ main {
   width: 80%;
   margin:  0 1rem;
   text-align: center;
-  border: 1px solid red;
   vertical-align: auto;
 }
 
@@ -132,7 +131,6 @@ main {
   width: 80%;
   margin: 1rem;
   text-align: center;
-  border: 1px solid red;
 }
 
 .esqueci-senha {
