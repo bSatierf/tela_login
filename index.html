@@ -18,24 +18,36 @@
       </div>
       <div class="form-area">
         <form action="" class="form">
-          <input type="text" class="input-email input">
-          <input type="password" class="input-senha input">
-          <span class="iconify olho mostra-senha" data-icon="entypo:eye" style="color: black;"></span>
-          <span class="iconify olho oculta-senha" data-icon="entypo:eye-with-line" style="color: black;"></span>
-          <button type="submit" class="button-login">Sign in</button>
+          <div class="div-floating">
+            <input type="text" class="input-email input" placeholder="seuemail@email.com" id="email-input">
+            <label class="form__input--floating-label--email" for="email-input">E-mail</label>
+          </div>
+          <div class="div-floating">
+            <input type="password" class="input-senha input" id="senha-input" placeholder="Sua senha">
+            <label class="form__input--floating-label--senha" for="senha-input">Senha</label>
+          </div>
+          <span class="iconify olho mostra-senha" data-icon="entypo:eye" style="color: white;"></span>
+          <span class="iconify olho oculta-senha" data-icon="entypo:eye-with-line" style="color: white;"></span>
+          <button type="submit" class="button-login button">Sign in</button>
         </form>
         <div class="div-lembrar-senha">
-          <input type="checkbox" name="lembra-senha" id="lembrar-senha"><label for="lembrar-senha">Lembrar de mim</label>
+          <input type="checkbox" name="lembra-senha" id="lembrar-senha"><label for="lembrar-senha">Lembrar de
+            mim</label>
           </a>
         </div>
-        <a href="#" class="esqueci-senha">Esqueci minha senha.
+        <div class="div-esqueci-senha">
+          <a href="" class="esqueci-senha">Esqueci minha senha.</a>
+        </div>
+      </div>
+      <div class="fieldset">
+        <fieldset>
+          <legend>ou</legend>
+        </fieldset>
       </div>
       <div class="login-alternativo">
-        <p>Ou</p>
-
-        <button class="login-google">Entrar com Google</button>
-        <button class="login-github">Entrar com Github</button>
-        <button class="login-facebook">Entrar com Facebook</button>
+        <button class="login-google button">Entrar com Google</button>
+        <button class="login-github button">Entrar com Github</button>
+        <button class="login-facebook button">Entrar com Facebook</button>
       </div>
       <div class="cadastrar">
         <a href="#" class="link-cadastro">Não tem uma conta? Cadastre-se!</a>
@@ -44,7 +56,7 @@
   </main>
   <footer>
     <div class="rodape">
-      <p>Desenvolvido por <a href="">bSatierf</a> - 2022</p>
+      <p>Desenvolvido por <a href="https://github.com/bSatierf">bSatierf</a> - 2022</p>
     </div>
   </footer>
 
