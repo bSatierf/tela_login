@@ -1,7 +1,18 @@
-.olho {
-  cursor: pointer;
-  left: 15.938rem;
-  top: 10.625rem;
-  position: absolute;
-  width: 20px;
+
+.container-fundo {
+  width: 80%;
+  padding: 1rem 1rem;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.login-google,
+.login-github,
+.login-facebook {
+  background-position: 10px;
+  background-size: 20px;
 }
