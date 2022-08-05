@@ -46,7 +46,7 @@ a {
   color: var(--cor-de-link);
 }
 
-.container-fundo {
+.container{
   margin: auto auto;
   width: 70%;
   background: rgba(255, 255, 255, 0);
@@ -55,9 +55,11 @@ a {
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border: 1px solid rgba(255, 255, 255, .21);
+  max-width: 70%;
+  display: flex;
 }
 
-.container {
+.container-fundo {
   display: flex;
   width: 100%;
   align-items: center;
@@ -65,18 +67,56 @@ a {
 
 .container-logo {
   width: 60%;
-  font-family: yellowtail;
   padding: 1rem;
   margin-bottom: .5rem;
   color: aquamarine;
+  height: 100%;
+  border-right: 1px solid #fff;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-logo h1 {
   margin: 0;
 }
 
+.area-chamada {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.welcome {
+  font-size: 2em;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'yellowtail', monospace;
+}
+
+.chamada {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chamada p {
+  font-size: 1.3em;
+  font-family: 'Satisfy';
+  color: #fff;
+  font-style: italic;
+  font-weight: 400;
+}
+
+
 .container-login {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,7 +133,8 @@ a {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  width: 80%;
+  width: 85%;
+  max-width: 85%;
 }
 
 .input {
@@ -106,15 +147,13 @@ a {
   color: #FFF;
 }
 
-
 .olho {
-  cursor: pointer;
-  left: 57.5rem;
-  top: 5.625rem;
-  position: absolute;
-  width: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    cursor: pointer;
 }
-
 
 .button-login {
   border-radius: 30px;
@@ -127,7 +166,7 @@ a {
 }
 
 .div-lembrar-senha {
-  width: 80%;
+  width: 85%;
   margin:  0 1rem;
   text-align: center;
   vertical-align: auto;
@@ -139,7 +178,7 @@ a {
 }
 
 .div-esqueci-senha {
-  width: 80%;
+  width: 85%;
   margin: 1rem;
   text-align: center;
 }
@@ -149,7 +188,7 @@ a {
 }
 
 .fieldset {
-  width: 80%;
+  width: 85%;
 }
 
 fieldset {
@@ -173,7 +212,7 @@ legend {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 85%;
 }
 
 .login-alternativo p {
@@ -247,7 +286,6 @@ footer {
   font-style: italic;
   
 }
-
 
 /* ---- */
 
