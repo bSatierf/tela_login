@@ -46,7 +46,7 @@ a {
   color: var(--cor-de-link);
 }
 
-.container{
+.container-fundo {
   margin: auto auto;
   width: 70%;
   background: rgba(255, 255, 255, 0);
@@ -55,11 +55,10 @@ a {
   backdrop-filter: blur(3.5px);
   -webkit-backdrop-filter: blur(3.5px);
   border: 1px solid rgba(255, 255, 255, .21);
-  max-width: 70%;
-  display: flex;
+  max-width: 768px;
 }
 
-.container-fundo {
+.container {
   display: flex;
   width: 100%;
   align-items: center;
@@ -145,6 +144,14 @@ a {
   border-radius: 30px;
   font-size: 1rem;
   color: #FFF;
+}
+
+.input-email {
+  padding-right: 10px;
+}
+
+.input-senha {
+  padding-right: 35px;
 }
 
 .olho {
