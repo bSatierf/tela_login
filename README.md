@@ -5,7 +5,7 @@
 * Responsivo;
 * Sem validações;
 
-### Preview Desktop
- [Alt Text](https://github.com/bSatierf/tela_login/blob/a8c87bfd3c70a86a8ec25a0f955043168adbf4f5/assets/image/TelaLogin.png)
+### Desktop
+ ![Desktop](https://github.com/bSatierf/tela_login/blob/a8c87bfd3c70a86a8ec25a0f955043168adbf4f5/assets/image/TelaLogin.png)
 
 
